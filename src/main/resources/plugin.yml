@@ -1,0 +1,20 @@
+name: MyPlugin
+version: '${project.version}'
+main: me.shaasha.deathswap.DeathSwap
+api-version: '1.21.8'
+
+
+commands:
+  startdeathswap:
+    description: "Starts the event"
+    usage: "/startdeathswap [length in minutes]"
+    aliases: [ start, startds ]
+    permission: myplugin.command.startdeathswap
+    permission-message: "You do not have permission to use this command"
+
+  stopdeathswap:
+    description: "Stops the event"
+    usage: "/stopdeathswap"
+    aliases: [ stopds ]
+    permission: myplugin.command.stopdeathswap
+    permission-message: "You do not have permission to use this command"
