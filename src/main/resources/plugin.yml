@@ -1,0 +1,19 @@
+name: DeathSwap
+version: '1.0.1'
+main: me.shaasha.deathswap.Deathswap
+api-version: '1.20'
+
+commands:
+  startdeathswap:
+    description: "Starts the event"
+    usage: "/startdeathswap [length in minutes]"
+    aliases: [ start, startds ]
+    permission: deathswap.command.startdeathswap
+    permission-message: "You do not have permission to use this command"
+
+  stopdeathswap:
+    description: "Stops the event"
+    usage: "/stopdeathswap"
+    aliases: [ stopds ]
+    permission: deathswap.command.stopdeathswap
+    permission-message: "You do not have permission to use this command"
